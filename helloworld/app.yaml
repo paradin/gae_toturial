@@ -6,4 +6,8 @@ threadsafe: true
 
 handlers:
 - url: /.*
-  script: guestbook.app
+  script: guestbook_tpl.app
+
+libraries:
+- name: jinja2
+  version: latest
